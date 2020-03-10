@@ -1,15 +1,15 @@
 // Your code goes here
-//change header backgroun color on click
+//change header background color on click
 document.querySelector('header').addEventListener('click', (event) => {
     event.target.style.background = 'red';
     event.stopPropagation();
   })
-
+//change background of nav on click
   document.querySelector('nav').addEventListener('click', (event) => {
     event.target.style.background = 'blue';
     event.stopPropagation();
   })
-
+//stop age from refreshing on home click
   document.querySelector('nav a').addEventListener('click', (event) => {
     event.target.style.background = 'green';
     event.stopPropagation();
